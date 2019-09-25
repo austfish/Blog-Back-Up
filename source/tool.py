@@ -174,6 +174,7 @@ def updata_blog():
 	"""
 	执行博客更新脚本
 	"""
+	print("开始更新博客")
 	os.system('cd ../../myblog && ./deploy')
 	
 if __name__ == "__main__":
