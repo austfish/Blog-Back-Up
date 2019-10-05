@@ -146,7 +146,7 @@ def cut_photo():
             make_directory(src_dir)
         # business logic
         file_list = list_img_file(src_dir)
-        # print file_list
+        print file_list
         if file_list:
             print_help()
             for infile in file_list:
@@ -182,7 +182,7 @@ if __name__ == "__main__":
     compress_photo()   # 压缩图片，并保存到mini_photos文件夹下
     git_operation()    # 提交到github仓库
     handle_photo()     # 将文件处理成json格式，存到博客仓库中
-    
+    updata_blog()	   # 调用myblog文件夹中deploy代码实现自动更新博客数据
     
     
     
