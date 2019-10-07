@@ -1,4 +1,6 @@
 #coding: utf-8
+# -*- coding:utf-8 -*-
+#coding: unicode_escape
 from PIL import Image
 import os
 import sys
