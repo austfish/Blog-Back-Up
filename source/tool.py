@@ -137,7 +137,7 @@ def handle_photo():
     list_info.reverse()  # 翻转
     final_dict = {"list": list_info}
     with open("../../myblog/source/photos/data.json","w") as fp:
-        json.dump(final_dict, fp, ensure_ascii=False)
+        json.dumps(final_dict, fp, ensure_ascii=False)
 
 def cut_photo():
     """裁剪算法
